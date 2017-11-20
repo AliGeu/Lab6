@@ -5,6 +5,8 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index(name: String ?="visitor")
 
+GET     /index                           controllers.HomeController.index(name: String ?="visitor")
+
 GET     /about                           controllers.HomeController.about
 
 <<<<<<< HEAD
